@@ -51,22 +51,22 @@ The main idea of this build system is that you always develop your extensions wi
 
 ## <a name="install"></a>3. Install
 
-### <a name="clone"></a>3.1. Clone this repo in your project
-
-In your project's root:
-
-`git clone git@github.com:phproberto/joomla-gulp.git`
-
-### <a name="install-node"></a>3.2. Install node.js
+### <a name="install-node"></a>3.1. Install node.js
 
 I won't extend here. Visit http://nodejs.org/ or search google.
 
-### <a name="install-gulp"></a>3.3. Install Gulp
+### <a name="install-gulp"></a>3.2. Install Gulp
 Install Gulp globally so it's available in all your projects:  
 `sudo npm install -g gulp`  
 
 Install Gulp on your project's folder:  
 `npm install --save-dev gulp`  
+
+### <a name="install-joomla-gulp"></a>3.3. Install Joomla Gulp npm package
+
+In your project's root:
+
+`npm install joomla-gulp`
 
 ### <a name="initialise-package"></a>3.4. Initialise your project's package.json file
 
